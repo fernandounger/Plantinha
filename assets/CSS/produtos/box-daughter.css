@@ -1,0 +1,14 @@
+.box__daughter{
+	align-items: center;
+	background-color:#fff;
+	border-radius: 20px;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+	display: flex;
+	flex-direction: column;
+	height: 400px;
+	transition: transform .2s;
+	width: 280px;
+}
+.box__daughter:hover{
+	transform: scale(1.1);
+}

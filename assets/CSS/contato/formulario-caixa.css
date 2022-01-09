@@ -1,0 +1,11 @@
+.formulario__caixa{
+	border: 1px solid #E0E0E0;
+	border-radius: 5px;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+	border: none;
+	height: 61px;
+	width: 400px;
+}
+.formulario__caixa:hover{
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}

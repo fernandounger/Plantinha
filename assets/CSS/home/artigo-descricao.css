@@ -1,0 +1,13 @@
+.artigo__descricao{
+	align-items: center;
+	display: flex;
+	font-size: 25px ;
+	font-style: normal;
+	font-weight: normal;
+	height: 60px;
+	line-height: 30px;
+	left: 0;
+	position: absolute;
+	top: 405px;
+	width: 510px;
+}

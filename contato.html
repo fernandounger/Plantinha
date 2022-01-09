@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./assets/CSS/style.css">
+	<link rel="stylesheet" href="./assets/CSS/cabecalho.css">
+	<link rel="stylesheet" href="./assets/CSS/cabecalho/cabecalho.css">
+	<link rel="stylesheet" href="./assets/CSS/cabecalho/menu-item.css">
+	<link rel="stylesheet" href="./assets/CSS/cabecalho/item-list.css">
+    <link rel="stylesheet" href="./assets/CSS/contato.css">
+    <link rel="stylesheet" href="./assets/CSS/contato/container-titulo.css">
+    <link rel="stylesheet" href="./assets/CSS/contato/box-container.css">
+    <link rel="stylesheet" href="./assets/CSS/contato/formulario.css">
+    <link rel="stylesheet" href="./assets/CSS/contato/formulario-label.css">
+    <link rel="stylesheet" href="./assets/CSS/contato/formulario-caixa.css">
+    <link rel="stylesheet" href="./assets/CSS/contato/formulario-texto.css">
+    <link rel="stylesheet" href="./assets/CSS/contato/formulario-botao.css">
+	<title>Plantinha</title>
+</head>
+<body>
+	<header class="cabecalho">
+		<a href="index.html">
+			<img id="cabecalho__logo"src="./assets/img/header/logo.svg" alt="Logo Plantinha">
+		</a>
+		<nav class="menu">
+			<ul class="menu__list">
+				<li class="item__list">
+					<a class="item__list--link" href="#">Sobre</a>
+				</li>
+				<li class="item__list">
+					<a class="item__list--link" href="produtos.html">Produtos</a>
+				</li>
+				<li class="item__list">
+					<a class="item__list--link" href="#">Contato</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="social">
+			<img class="social__networks"src="./assets/img/header/instagram.svg" alt="Logotipo Instagram">
+			<img class="social__networks"src="./assets/img/header/facebook.svg" alt="Logotipo Facebook">
+		</div>
+	</header>
+    <section class="container">
+		<div class="box__container">
+       <h1 class="container__titulo"> Vamos conversar sobre qualquer <span>coisa</span>!</h1>
+	   <img class="container__imagem" src="./assets/img/undraw_contact.svg">
+		</div>
+		<form class="formulario" method="post">
+			<label class="formulario__label" for="text">Nome:</label>
+			<input class="formulario__caixa" type="text" id="text">
+			<label class="formulario__label" for="email">Email:</label>
+			<input class="formulario__caixa" type="email" id="email">
+			<label class="formulario__label" for="mensg">Mensagem:</label>
+			<textarea class="formulario__texto" id="mensg"></textarea>
+			<button class="formulario__botao" type="submit">Enviar</button>
+		</form>
+    </section>
+</body>
+</html>

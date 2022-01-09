@@ -1,0 +1,11 @@
+.artigo{
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	height: 471px;
+	left: 105px;
+	position: absolute;
+	top: 170px;
+	width: 535px;
+	
+}

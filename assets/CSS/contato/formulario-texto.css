@@ -1,0 +1,8 @@
+.formulario__texto{
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+	border:1px solid #E0E0E0;
+	height: 150px;
+	width: 400px;
+}
