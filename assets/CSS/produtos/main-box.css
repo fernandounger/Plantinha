@@ -1,8 +1,0 @@
-.main__box{
-	align-items: center;
-	display: flex;
-	flex-direction: row;
-	height: 440px;
-	justify-content: space-around;
-	width: 1200px;
-}
