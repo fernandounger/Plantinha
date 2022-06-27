@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,24 +11,14 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon-16x16.png">
 	<link rel="stylesheet" href="./assets/CSS/style.css">
-	<link rel="stylesheet" href="./assets/CSS/cabecalho.css">
-	<link rel="stylesheet" href="./assets/CSS/cabecalho/cabecalho.css">
-	<link rel="stylesheet" href="./assets/CSS/cabecalho/menu-item.css">
-	<link rel="stylesheet" href="./assets/CSS/cabecalho/item-list.css">
-    <link rel="stylesheet" href="./assets/CSS/contato.css">
-    <link rel="stylesheet" href="./assets/CSS/contato/container-titulo.css">
-    <link rel="stylesheet" href="./assets/CSS/contato/box-container.css">
-    <link rel="stylesheet" href="./assets/CSS/contato/formulario.css">
-    <link rel="stylesheet" href="./assets/CSS/contato/formulario-label.css">
-    <link rel="stylesheet" href="./assets/CSS/contato/formulario-caixa.css">
-    <link rel="stylesheet" href="./assets/CSS/contato/formulario-texto.css">
-    <link rel="stylesheet" href="./assets/CSS/contato/formulario-botao.css">
-	<title>Plantinha</title>
+	<link rel="stylesheet" href="./assets/CSS/header.css">
+	<link rel="stylesheet" href="./assets/CSS/contato.css">
 </head>
+
 <body>
-	<header class="cabecalho">
+	<header class="header">
 		<a href="index.html">
-			<img id="cabecalho__logo"src="./assets/img/header/logo.svg" alt="Logo Plantinha">
+			<img src="./assets/img/header/logo.svg" alt="Logo Plantinha">
 		</a>
 		<nav class="menu">
 			<ul class="menu__list">
@@ -43,14 +34,14 @@
 			</ul>
 		</nav>
 		<div class="social">
-			<img class="social__networks"src="./assets/img/header/instagram.svg" alt="Logotipo Instagram">
-			<img class="social__networks"src="./assets/img/header/facebook.svg" alt="Logotipo Facebook">
+			<img class="social__networks" src="./assets/img/header/instagram.svg" alt="Logotipo Instagram">
+			<img class="social__networks" src="./assets/img/header/facebook.svg" alt="Logotipo Facebook">
 		</div>
 	</header>
-    <section class="container">
+	<section class="container">
 		<div class="box__container">
-       <h1 class="container__titulo"> Vamos conversar sobre qualquer <span>coisa</span>!</h1>
-	   <img class="container__imagem" src="./assets/img/undraw_contact.svg">
+			<h2 class="box__titulo"> Vamos conversar sobre qualquer <span>coisa</span>!</h2>
+			<img class="box__imagem" src="./assets/img/undraw_contact.svg">
 		</div>
 		<form class="formulario" method="post">
 			<label class="formulario__label" for="text">Nome:</label>
@@ -58,9 +49,10 @@
 			<label class="formulario__label" for="email">Email:</label>
 			<input class="formulario__caixa" type="email" id="email">
 			<label class="formulario__label" for="mensg">Mensagem:</label>
-			<textarea class="formulario__texto" id="mensg"></textarea>
+			<textarea class="formulario__textarea" id="mensg"></textarea>
 			<button class="formulario__botao" type="submit">Enviar</button>
 		</form>
-    </section>
+	</section>
 </body>
+
 </html>
