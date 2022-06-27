@@ -1,0 +1,36 @@
+.header{
+	background: #FFFFFF;
+	display: flex;
+	align-items: center;
+	padding: 8px;
+	justify-content: space-between;
+	gap: 1.4rem;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.header .menu .menu__list{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+}
+.header .menu .menu__list .item__list {
+	font-size: 1.1rem;
+}
+.header .menu .menu__list .item__list .item__list--link{
+	color: #1e1e1e;
+	font-weight: 600;
+}
+.header .menu .menu__list .item__list .item__list--link:hover{
+	border-bottom: 3px solid #00b0ff;
+}
+@media (max-width:800px){
+	.header{
+		flex-direction: column;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	.header .social .social__networks{
+		display: none;
+	}
+
+}
