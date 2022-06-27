@@ -1,4 +1,4 @@
-
+![](./vid/plantinha.gif)
 
 ## Technologies used
 
