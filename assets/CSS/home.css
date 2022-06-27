@@ -1,18 +1,36 @@
 .container{
 	background: #ebebeb;
-	margin-bottom: 20px;
-	border-radius: 30px 30px 30px 30px;
-	margin: auto;
+	padding: 80px auto;
 	display: flex;
-	flex-direction: row;
-	height: 565px;
-	width: 1325px;
+	align-items: center;
+	gap: 1rem;
+	justify-content: space-between;
+	max-width: 1200px;
+	margin: 0 auto;
 }
-
+.container .artigo{
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 10px;
+}
+.container .artigo .artigo__titulo{
+	color: #1e1e1e;
+	font-size: clamp(3.4375rem, 2.6339rem + 4.0179vw, 6.25rem);
+}
+.container .artigo .artigo__titulo .artigo__titulo--frase{
+	color: #00b0ff;
+}
+.container .artigo .artigo__descricao{
+	line-height: 30px;
+	color: #1e1e1edd;
+	font-size: 1.2rem;
+}
 .container__imagem{
-	height: 427px;
-	left: 696px;
-	position: absolute;
-	top: 217px;
-	width: 530px;
+	width: 75%;
+}
+@media (max-width:1000px){
+	.container{
+		flex-direction: column;
+		justify-content: center;
+	}
 }
