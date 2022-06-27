@@ -1,9 +1,0 @@
-.cabecalho{
-	align-items: center;
-	background: #FFFFFF;
-	display: flex;
-	flex-direction: row;
-	height: 80px;
-	justify-content: space-evenly;
-	margin: 10px 0;
-}
