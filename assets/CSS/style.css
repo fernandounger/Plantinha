@@ -2,14 +2,15 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+	outline: none;
 }
 body{
 	font-family: 'Montserrat' , sans-serif;
+	margin: 0 auto;
+	max-width: 1400px;
 }
 span{
 	color:#00b0ff;
-}
-textarea:focus, input:focus {
-    box-shadow: 0 0 0 0;
-    outline: 0;
 }
