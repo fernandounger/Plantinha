@@ -19,6 +19,9 @@
 	font-size: clamp(1.875rem, 1.4286rem + 2.2321vw, 3.4375rem);
 	font-weight: 700;
 }
+.container .box__container .box__imagem{
+	width: 100%;
+}
 .container .formulario{
 	display: flex;
 	flex-direction: column;
